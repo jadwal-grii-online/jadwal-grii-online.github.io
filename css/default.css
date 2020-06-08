@@ -1,0 +1,121 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background: #111111;
+    color: white;
+}
+
+h1 {
+    margin: 20px;
+    text-underline-style: dash-dot-dot-heavy;
+}
+
+/* Menu */
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* List by Date page */
+.daily_link{
+    margin: 20px;
+}
+
+.daily_link a {
+    color: deepskyblue;
+}
+
+/* Daily Page */
+
+
+.event, .series {
+    /*background-color: #F0F0F0;*/
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding: 5px 0px 10px;
+}
+
+/*.event::after {*/
+/*    grid-column-start: 1;*/
+/*    grid-column-end: 3;*/
+/*    content: "=========="*/
+/*}*/
+
+.time {
+    font-size: larger;
+    grid-column-start: 1;
+    grid-column-end:1;
+}
+
+.topic {
+    font-size: x-large;
+    font-weight: bold;
+    grid-column-start: 2;
+}
+
+.link, .link a{
+    font-size: medium;
+    grid-column-start: 2;
+    color: orange;
+}
+
+.description {
+    font-size: medium;
+    grid-column-start: 2;
+}
+
+.speaker {
+    font-size: large;
+    font-style: italic;
+    grid-column-start: 2;
+    margin-bottom: 5px;
+}
+
+.age {
+    font-size: small;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+}
+
+.youtubediv {
+    margin-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.youtubeframe {
+    width: 70vw;
+    height: 39.38vw;
+    border-style: none;
+}
+
+.iframe_container {
+    width: 100% ;
+}
+
+.iframe_content {
+    display: block;
+    border-style: none;
+    height: 100vh;
+    width: 100vw;
+}
